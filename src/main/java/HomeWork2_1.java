@@ -1,8 +1,8 @@
 public class HomeWork2_1 {
     public static void main(String[] args) throws Exception {
-        String [] arrayData =  lib.ReadLineFromFile("json.txt");
-        for(int i = 0; i < arrayData.length; i++) {
-            System.out.println(PrintLine(arrayData[i]));
+        String [] ListName =  lib.ReadLineFromFile("D:\\untitled\\src\\main\\java\\json.txt");
+        for(int i = 0; i < ListName.length; i++) {
+            System.out.println(PrintLine(ListName[i]));
         }
 }
     public static StringBuilder PrintLine(String line) {
@@ -14,7 +14,7 @@ public class HomeWork2_1 {
         StringBuilder result = new StringBuilder("");
         String [] arrayData = line5.split(",");
         String [] listName = {"Студент ", " получил ", " по предмету "};
-        for (int i =0; i < arrayData.length; i++) {
+        for (int i =0; i < listName.length; i++) {
             String[] arrData = arrayData[i].split(":");
             result.append(listName[i]);
             result.append(arrData[1]);
