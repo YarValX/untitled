@@ -1,3 +1,8 @@
+package HomeWork4;
+
+import HomeWork4.User;
+import HomeWork4.UserInput;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

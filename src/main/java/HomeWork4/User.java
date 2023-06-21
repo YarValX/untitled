@@ -1,3 +1,5 @@
+package HomeWork4;
+
 class User {
     private String fullName;
     private int age;

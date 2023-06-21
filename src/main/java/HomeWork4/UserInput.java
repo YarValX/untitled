@@ -1,3 +1,7 @@
+package HomeWork4;
+
+import HomeWork4.User;
+
 import java.util.Scanner;
 
 class UserInput {
